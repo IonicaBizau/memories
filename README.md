@@ -12,6 +12,8 @@
 Together with [@GhitaB](https://github.com/GhitaB) we created this game.
 
 
+[![memories](https://i.imgur.com/YoyavgM.png)](https://ionicabizau.github.io/memories/)
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
@@ -34,7 +36,10 @@ Thanks! :heart:
 
 
 ## :cake: Thanks
-Most of the images are downloaded from Pixabay.com
+Most of the images are downloaded from Pixabay.com and Wikipedia.
+[Book animation](http://www.animatedimages.org/data/media/53/animated-book-image-0032.gif)
+[Nice Job Animation](http://clipart-library.com/img1/892743.gif)
+[Funny mouse sparkler](https://github.com/robinwhittleton/jquery.sparkle), by [**@robinwhittletoni**](https://github.com/robinwhittleton)
 
 
 ## :scroll: License
