@@ -63,6 +63,8 @@
   },
   "blah": {
       "show_installation": false,
+      "ex_img": "https://i.imgur.com/YoyavgM.png",
+      "ex_url": "https://ionicabizau.github.io/memories/",
       "description": [
           { "h4": "👉 [PLAY NOW](https://ionicabizau.github.io/memories/)" },
           { "p": "Together with [@GhitaB](https://github.com/GhitaB) we created this game." }
