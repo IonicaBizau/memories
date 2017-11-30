@@ -44,5 +44,6 @@
             </div>
         </div>
         <%- Bloggify.assets.jsHtml().replace("/@", "@") %>
+        <% include(Bloggify.views.ga) %>
     </body>
 </html>
