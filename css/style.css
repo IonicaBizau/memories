@@ -43,7 +43,7 @@ main {
     }
 }
 
-img {
+.game img {
     height: 100%;
     width: 100%;
 }
@@ -261,4 +261,34 @@ div.active .back {
     left: 40px;
     top: 45px;
     position: absolute;
+}
+
+h1.game-title {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: -175px;
+    color: white;
+    font-family: serif;
+    top: 120px;
+    font-size: 65px;
+    margin: 0;
+}
+
+
+.sparkle {
+    position: absolute;
+    color: pink;
+    z-index: 9999999;
+}
+
+body, body * {
+    cursor: crosshair !important;
+}
+
+img.animated-book {
+    width: 24%;
+}
+
+img.congrats-gif {
+    width: 50%;
 }

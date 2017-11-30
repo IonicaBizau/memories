@@ -62,6 +62,15 @@
     "bloggify-cli": "0.0.0-alpha26"
   },
   "blah": {
-      "show_installation": false
+      "show_installation": false,
+      "description": [
+          { "h4": "👉 [PLAY NOW](https://ionicabizau.github.io/memories/)" },
+          { "p": "Together with [@GhitaB](https://github.com/GhitaB) we created this game." }
+      ],
+      "thanks": [
+          "Most of the images are downloaded from Pixabay.com and Wikipedia.",
+          "[Book animation](http://www.animatedimages.org/data/media/53/animated-book-image-0032.gif)",
+          "[Nice Job Animation](http://clipart-library.com/img1/892743.gif)"
+      ]
   }
 }
