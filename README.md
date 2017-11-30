@@ -6,6 +6,12 @@
 
 > A blocks game, in the old fashion way.
 
+#### 👉 [PLAY NOW](https://ionicabizau.github.io/memories/)
+
+
+Together with [@GhitaB](https://github.com/GhitaB) we created this game.
+
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
@@ -26,6 +32,9 @@ However, if you get some profit from this or just want to encourage me to contin
 
 Thanks! :heart:
 
+
+## :cake: Thanks
+Most of the images are downloaded from Pixabay.com
 
 
 ## :scroll: License

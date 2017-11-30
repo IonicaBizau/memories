@@ -2,6 +2,7 @@ const Match = require("match")
 
 let game = null
   , $ = require("jquery")
+  , jQuery = $
   , $aboutWindow = $(".window-about")
   , $closeAboutBtn = $(".close-about")
   , $game = $(".game-info")
@@ -13,6 +14,42 @@ let game = null
   , $body = $(document.body)
   , $skillSelect = $("select")
   ;
+
+jQuery.fn.sparkle = function() {
+    return this.each(function(){
+
+        var sparkling;
+        var mousePositionX;
+        var mousePositionY;
+        var defaults = {
+            sparkleHtml: '<img class="sparkle" src="assets/sparkle.gif" />',
+            createSpeed: 150,
+            fadeSpeed: 500,
+            randomness: 15
+        }
+
+        $(this).hover(function(){
+            sparkling = window.setInterval(function(){
+
+                var sparkleItem = $(defaults.sparkleHtml).css({
+                    top: mousePositionY+((Math.random()-.5)*defaults.randomness)+'px',
+                    left: mousePositionX+((Math.random()-.5)*defaults.randomness)+'px'
+                }).appendTo('body').fadeOut(defaults.fadeSpeed, function(){ delete this; });
+
+            },defaults.createSpeed);
+        },function(){
+            window.clearInterval(sparkling);
+        });
+
+        $(this).mousemove(function(e){
+            mousePositionX = e.pageX;
+            mousePositionY = e.pageY;
+        });
+    });
+
+}
+
+$('body').sparkle();
 
 const closeAbout = () => {
     if (game === null) {
