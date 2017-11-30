@@ -18,7 +18,7 @@
                 </div>
                 <div class="background background-easy">
                 </div>
-                <div class="congrats retro-window retro-border hide">
+                <div class="congrats retro-window retro-border hide text-center">
                     <div class="title">Congratulations!</div>
                     <div>
                         <img src="assets/nice-job.gif" class="congrats-gif" />
