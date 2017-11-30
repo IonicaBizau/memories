@@ -2,12 +2,13 @@
   "name": "memories",
   "version": "1.0.0",
   "description": "A blocks game, in the old fashion way.",
-  "main": "lib/index.js",
+  "main": "bloggify.json",
   "scripts": {
+    "start:dev": "bloggify-dev-start",
     "bundle": "NODE_ENV=production bloggify-start --exit-after-bundle",
     "start": "bloggify-prod-start",
-    "build": "rm -rf dist/ && snap localhost:8080 && mv localhost dist && git add . -A && git commit -m 'Build'",
-    "deploy": "gh-pages-deploy"
+    "build": "rm -rf dist/ ; snap localhost:8080 && mv localhost dist && cp -r _public/* dist/ && git add . -A && git commit -m 'Build'",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -57,9 +58,10 @@
     "match": "^1.2.8"
   },
   "devDependencies": {
-    "gh-pages-deploy": "^0.4.2"
+    "gh-pages": "^1.1.0",
+    "bloggify-cli": "0.0.0-alpha26"
   },
-  "gh-pages-deploy": {
-    "staticpath": "dist"
+  "blah": {
+      "show_installation": false
   }
 }

@@ -6,7 +6,8 @@
         <title>Memories</title>
     </head>
     <body class="unselectable" data-skill="little">
-        <img class="hide" src="/assets/block-mask.png">
+        <% include(Bloggify.views.static_css) %>
+        <img class="hide" src="assets/block-mask.png">
         <div class="container">
             <main>
                 <div class="game-controls text-center">
@@ -43,5 +44,6 @@
             </div>
         </div>
         <%- Bloggify.assets.jsHtml().replace("/@", "@") %>
+        <% include(Bloggify.views.ga) %>
     </body>
 </html>

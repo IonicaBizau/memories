@@ -6,7 +6,17 @@
         <title>Memories</title>
     </head>
     <body class="unselectable" data-skill="little">
-        <img class="hide" src="/assets/block-mask.png">
+        <style>
+body {
+    background-image: url("assets/background.jpg");
+}
+.back {
+    height: 100%;
+    background-image: url("assets/block-mask.png");
+}
+</style>
+
+        <img class="hide" src="assets/block-mask.png">
         <div class="container">
             <main>
                 <div class="game-controls text-center">
@@ -43,5 +53,14 @@
             </div>
         </div>
         <script src="@/bloggify/core//production-bundles/main/scripts-main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110455217-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110455217-1');
+</script>
+
     </body>
 </html>
