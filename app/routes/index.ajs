@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <%- Bloggify.assets.cssHtml() %>
+        <title>Memories</title>
+    </head>
+    <body class="unselectable" data-skill="little">
+        <img class="hide" src="/assets/block-mask.png">
+        <div class="container">
+            <main>
+                <div class="game-controls text-center">
+                    <button class="retro-border toggle-colors btn-small" title="Toggle Colors">☯</button>
+                    <button class="retro-border restart">New</button>
+                    <button class="retro-border view-on-github">GitHub</button>
+                    <button class="retro-border btn-about btn-small">?</button>
+                </div>
+                <div class="background background-easy">
+                </div>
+                <div class="congrats retro-window retro-border hide">
+                    <div class="title">Congratulations!</div>
+                </div>
+                <div class="window-about retro-window retro-border">
+                    <div class="title">Memories</div>
+                    <p>A game about nostalgia, something <i>passé</i>. The blocks are randomly shuffled. Each block hides a picture on the other side.</p>
+                    <p>Click the blocks to flip them and find the pairs.</p>
+                    <p>When you find a pair, the blocks dissappear.</p>
+                    <p>Have fun!</p>
+                    <div class="text-center">
+                    <p>* * *</p>
+                    <p>Version 1.00</p>
+                    <p>Built by <a target="blank" href="https://github.com/IonicaBizau">@IonicaBizau</a> and <a target="blank" href="https://github.com/GhitaB">@GhitaB</a></p>
+                    <button class="retro-border close-about">Go!</button>
+                    </div>
+                </div>
+                <div class="game wrap">
+                </div>
+            </main>
+            <div class="templates hide">
+                <div>
+                    <img src="{img}">
+                </div>
+            </div>
+        </div>
+        <%- Bloggify.assets.jsHtml() %>
+    </body>
+</html>
