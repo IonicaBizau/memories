@@ -2,10 +2,6 @@ body.grayscale {
     filter: grayscale(1);
 }
 
-body {
-    background-image: url("../_public/assets/background.jpg");
-}
-
 body,
 html {
     height: 100%;
@@ -243,7 +239,6 @@ div.active .back {
 
 .back {
     height: 100%;
-    background-image: url(/assets/block-mask.png);
 }
 
 .game > div {

@@ -6,6 +6,7 @@
         <title>Memories</title>
     </head>
     <body class="unselectable" data-skill="little">
+        <% include(Bloggify.views.static_css) %>
         <img class="hide" src="/assets/block-mask.png">
         <div class="container">
             <main>
