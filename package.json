@@ -7,7 +7,7 @@
     "bundle": "NODE_ENV=production bloggify-start --exit-after-bundle",
     "start": "bloggify-prod-start",
     "build": "rm -rf dist/ ; snap localhost:8080 && mv localhost dist && cp -r _public/* dist/ && git add . -A && git commit -m 'Build'",
-    "deploy": "gh-pages-deploy"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -57,6 +57,7 @@
     "match": "^1.2.8"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "gh-pages-deploy": "^0.4.2"
   },
   "gh-pages-deploy": {
