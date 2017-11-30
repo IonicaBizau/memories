@@ -1,0 +1,58 @@
+{
+  "name": "memories",
+  "version": "1.0.0",
+  "description": "A blocks game, in the old fashion way.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/memories.git"
+  },
+  "keywords": [
+    "old",
+    "game",
+    "blocks",
+    "html",
+    "web",
+    "modern",
+    "memory"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "contributors": [
+    "Antonija Šimić <antonija1023@gmail.com> (http://tonkec.github.io)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/memories/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/memories#readme",
+  "blah": {
+    "title": "Memory Blocks",
+    "h_img": "http://i.imgur.com/m6ToUa4.png",
+    "h_url": "https://ionicabizau.github.io/memories/"
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "scripts/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
+  ],
+  "dependencies": {
+    "bloggify": "0.0.0-alpha25",
+    "elly": "^1.1.7",
+    "jquery": "^3.2.1",
+    "match": "^1.2.8",
+    "match.js": "^1.0.0"
+  }
+}
