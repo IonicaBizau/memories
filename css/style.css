@@ -279,6 +279,7 @@ h1.game-title {
     position: absolute;
     color: pink;
     z-index: 9999999;
+    pointer-events: none;
 }
 
 body, body * {
@@ -291,4 +292,5 @@ img.animated-book {
 
 img.congrats-gif {
     width: 50%;
+
 }
