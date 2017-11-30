@@ -49,10 +49,8 @@
     "bloggify/"
   ],
   "dependencies": {
-    "bloggify": "0.0.0-alpha25",
-    "elly": "^1.1.7",
+    "bloggify": "0.0.0-alpha26",
     "jquery": "^3.2.1",
-    "match": "^1.2.8",
-    "match.js": "^1.0.0"
+    "match": "^1.2.8"
   }
 }
