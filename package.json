@@ -4,7 +4,10 @@
   "description": "A blocks game, in the old fashion way.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "NODE_ENV=production bloggify-start --exit-after-bundle",
+    "start": "bloggify-prod-start",
+    "build": "snap localhost:8080 && mv localhost dist && git add . -A && git commit -m 'Build'",
+    "deploy": "gh-pages-deploy"
   },
   "repository": {
     "type": "git",
@@ -52,5 +55,11 @@
     "bloggify": "0.0.0-alpha26",
     "jquery": "^3.2.1",
     "match": "^1.2.8"
+  },
+  "devDependencies": {
+    "gh-pages-deploy": "^0.4.2"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "dist"
   }
 }
