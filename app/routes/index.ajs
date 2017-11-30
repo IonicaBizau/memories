@@ -7,7 +7,7 @@
     </head>
     <body class="unselectable" data-skill="little">
         <% include(Bloggify.views.static_css) %>
-        <img class="hide" src="/assets/block-mask.png">
+        <img class="hide" src="assets/block-mask.png">
         <div class="container">
             <main>
                 <div class="game-controls text-center">
