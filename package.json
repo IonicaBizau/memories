@@ -6,7 +6,7 @@
   "scripts": {
     "bundle": "NODE_ENV=production bloggify-start --exit-after-bundle",
     "start": "bloggify-prod-start",
-    "build": "snap localhost:8080 && mv localhost dist && git add . -A && git commit -m 'Build'",
+    "build": "rm -rf dist/ && snap localhost:8080 && mv localhost dist && git add . -A && git commit -m 'Build'",
     "deploy": "gh-pages-deploy"
   },
   "repository": {
