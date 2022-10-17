@@ -67,12 +67,12 @@
     "bloggify/"
   ],
   "dependencies": {
-    "bloggify": "0.0.0-alpha26",
+    "bloggify": "0.0.0",
     "jquery": "^3.2.1",
     "match": "^1.2.8"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0",
-    "bloggify-cli": "0.0.0-alpha26"
+    "bloggify-cli": "1.7.3"
   }
 }
