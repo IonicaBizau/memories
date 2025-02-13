@@ -1,6 +1,6 @@
 {
   "name": "memories-game-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A blocks game, in the old fashion way.",
   "main": "bloggify.json",
   "scripts": {
@@ -62,6 +62,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
